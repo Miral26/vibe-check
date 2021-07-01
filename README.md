@@ -1,4 +1,4 @@
-# pms-front
+# vibe-check
 
 ## Project setup
 ```
