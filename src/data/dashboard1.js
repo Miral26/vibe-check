@@ -85,14 +85,14 @@ export const echart1 = {
       symbolSize: 8,
       showSymbol: false,
       lineStyle: {
-        color: dark_heading,
+        color: "#d8d8d8",
         opacity: 1,
         width: 1.5,
       },
       itemStyle: {
         show: false,
-        color: "#ff5721",
-        borderColor: "#ff5721",
+        color: "#FF683B",
+        borderColor: "#FF683B",
         borderWidth: 1.5,
       },
       areaStyle: {
@@ -106,15 +106,15 @@ export const echart1 = {
             colorStops: [
               {
                 offset: 0,
-                color: "rgba(102, 51, 153, .2)",
+                color: "#FF683B",
               },
               {
                 offset: 0.3,
-                color: "rgba(102, 51, 153, .2)",
+                color: "#FF683B",
               },
               {
                 offset: 1,
-                color: "rgba(102, 51, 153, .2)",
+                color: "#FF683B",
               },
             ],
           },
@@ -209,14 +209,14 @@ export const echart2 = {
       symbolSize: 8,
       showSymbol: false,
       lineStyle: {
-        color: "#FFC107",
+        color: "#d8d8d8",
         opacity: 1,
         width: 1.5,
       },
       itemStyle: {
         show: false,
-        color: "#ff5721",
-        borderColor: "#ff5721",
+        color: "#78ADD1",
+        borderColor: "#78ADD1",
         borderWidth: 1.5,
       },
       areaStyle: {
@@ -230,15 +230,15 @@ export const echart2 = {
             colorStops: [
               {
                 offset: 0,
-                color: "rgba(255, 193, 7, 0.2)",
+                color: "#78ADD1",
               },
               {
                 offset: 0.3,
-                color: "rgba(255, 193, 7, 0.2)",
+                color: "#78ADD1",
               },
               {
                 offset: 1,
-                color: "rgba(255, 193, 7, 0.2)",
+                color: "#78ADD1",
               },
             ],
           },

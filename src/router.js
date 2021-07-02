@@ -46,6 +46,10 @@ const routes = [
         path: "/app/users",
         component: () => import("./views/app/users/users.vue"), //users
       },
+      {
+        path: "/app/bar-image",
+        component: () => import("./views/app/bar-image/bar-image.vue"), //users
+      },
 
       //ui-kits
       {

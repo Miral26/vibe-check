@@ -2,6 +2,7 @@
   "dashboard": "Dashboard",
   "home": "Home",
   "users": "Users",
+  "barImage": "Bar Image",
   "dashboardItems": {
     "versionOne": "Version One",
     "versionTwo": "Version Two",

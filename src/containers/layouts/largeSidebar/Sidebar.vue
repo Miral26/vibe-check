@@ -43,6 +43,19 @@
             </router-link>
             <div class="triangle"></div>
           </li>
+          <li
+            @mouseenter="toggleSubMenu"
+            class="nav-item"
+            :class="{ active: selectedParentMenu == 'bar-image' }"
+            data-item="bar-image"
+            :data-submenu="true"
+          >
+            <router-link tag="a" class="nav-item-hold" to="/app/bar-image">
+              <i class="nav-icon i-Crop-2"></i>
+              <span class="nav-text">{{ $t("barImage") }}</span>
+            </router-link>
+            <div class="triangle"></div>
+          </li>
           <!-- <li
             @mouseenter="toggleSubMenu"
             class="nav-item"

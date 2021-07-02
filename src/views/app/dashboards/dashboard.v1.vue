@@ -21,7 +21,7 @@
             <div class="card card-chart-bottom o-hidden mb-30">
               <div class="card-body pb-0">
                 <div class="text-muted" style="font-size: 40px">🔥</div>
-                <p class="text-primary text-24 m-0">$40250</p>
+                <p class="text-primary text-24 m-0">40250</p>
               </div>
               <div class="chart-wrapper" style="height: 260px">
                 <v-chart :options="echart1" :autoresize="true"></v-chart>
@@ -33,7 +33,7 @@
             <div class="card card-chart-bottom o-hidden mb-30">
               <div class="card-body pb-0">
                 <div class="text-muted" style="font-size: 40px">🧊</div>
-                <p class="text-warning text-24 m-0">$10250</p>
+                <p class="text-warning text-24 m-0">10250</p>
               </div>
               <div class="chart-wrapper" style="height: 260px">
                 <v-chart :options="echart2" :autoresize="true"></v-chart>
