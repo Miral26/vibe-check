@@ -189,6 +189,10 @@ blockquote {
   .form-control, .dropdown-header {
     color: #d8d8d8;
   }
+  .main-header .search-bar {
+    padding: .3rem;
+    border: 1px solid #d8d8d8 !important;
+  }
 }
 
 // np progress bar
