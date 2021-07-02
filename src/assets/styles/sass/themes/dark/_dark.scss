@@ -36,6 +36,11 @@
     // background: $dark-bg;
     color: $dark-heading !important;
   }
+  .auth-right {
+    a {
+      color: #000 !important;
+    }
+  }
   input,
   textarea {
     background: $dark-forground !important;

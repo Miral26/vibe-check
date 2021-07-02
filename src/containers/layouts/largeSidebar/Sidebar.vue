@@ -166,6 +166,42 @@
           </li> -->
         </ul>
       </div>
+
+      <!-- <div class="sidenav-bottom">
+        <div class="dropdown">
+          <b-dropdown
+            id="dropdown-1"
+            right
+            text="Right align"
+            class="m-md-2 user col align-self-end"
+            toggle-class="text-decoration-none"
+            no-caret
+            variant="button"
+          >
+            <template slot="button-content">
+              <img
+                src="@/assets/images/faces/1.jpg"
+                id="userDropdown"
+                alt
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              />
+            </template>
+
+            <div class="dropdown-menu-right" aria-labelledby="userDropdown">
+              <div class="dropdown-header">
+                <i class="i-Lock-User mr-1"></i>
+                {{ "Guest" }}
+              </div>
+              <a class="dropdown-item">Change Password</a>
+              <a class="dropdown-item" href="#" @click.prevent="logoutUser"
+                >Sign out</a
+              >
+            </div>
+          </b-dropdown>
+        </div>
+      </div> -->
     </vue-perfect-scrollbar>
 
     <vue-perfect-scrollbar

@@ -12,82 +12,15 @@
           </div>
         </div>
       </b-col>
-      <b-col lg="3" md="6" sm="12">
-        <b-card
-          class="card-icon-bg card-icon-bg-primary o-hidden mb-30 text-center"
-        >
-          <div class="font-weight-bold" style="font-size: 40px">🔥</div>
-          <div class="content">
-            <p class="text-muted mt-2 mb-0">New Leads</p>
-            <p class="text-primary text-24 line-height-1 mb-2">205</p>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col lg="3" md="6" sm="12">
-        <b-card
-          class="card-icon-bg card-icon-bg-primary o-hidden mb-30 text-center"
-        >
-          <div class="font-weight-bold" style="font-size: 40px">🧊</div>
-          <div class="content">
-            <p class="text-muted mt-2 mb-0">Sales</p>
-            <p class="text-primary text-24 line-height-1 mb-2">$4021</p>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col lg="3" md="6" sm="12">
-        <b-card
-          class="card-icon-bg card-icon-bg-primary o-hidden mb-30 text-center"
-        >
-          <i class="i-Checkout-Basket"></i>
-          <div class="content">
-            <p class="text-muted mt-2 mb-0">Orders</p>
-            <p class="text-primary text-24 line-height-1 mb-2">80</p>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col lg="3" md="6" sm="12">
-        <b-card
-          class="card-icon-bg card-icon-bg-primary o-hidden mb-30 text-center"
-        >
-          <i class="i-Money-2"></i>
-          <div class="content">
-            <p class="text-muted mt-2 mb-0">Expense</p>
-            <p class="text-primary text-24 line-height-1 mb-2">$1200</p>
-          </div>
-        </b-card>
-      </b-col>
-    </b-row>
-
-    <b-row>
-      <b-col lg="8" md="12" sm="12">
-        <b-card class="mb-30">
-          <h4 class="card-title m-0">This Year Sales</h4>
-          <div class="chart-wrapper" style="height: 300px; width: 100%">
-            <v-chart
-              id="echartbar"
-              :options="echartBar"
-              :autoresize="true"
-            ></v-chart>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col col lg="4" md="12" sm="12">
-        <b-card class="mb-30">
-          <h4 class="card-title m-0">Sales by Countries</h4>
-          <div class="chart-wrapper" style="height: 300px; width: 100%">
-            <v-chart :options="echartPie" :autoresize="true"></v-chart>
-          </div>
-        </b-card>
-      </b-col>
     </b-row>
 
     <div class="row">
-      <div class="col-lg-6 col-xl-6 col-md-12">
+      <div class="col-lg-12 col-xl-12 col-md-12">
         <div class="row">
           <div class="col-lg-6 col-md-6">
             <div class="card card-chart-bottom o-hidden mb-30">
               <div class="card-body pb-0">
-                <div class="text-muted">Last Month Sales</div>
+                <div class="text-muted" style="font-size: 40px">🔥</div>
                 <p class="text-primary text-24 m-0">$40250</p>
               </div>
               <div class="chart-wrapper" style="height: 260px">
@@ -99,7 +32,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="card card-chart-bottom o-hidden mb-30">
               <div class="card-body pb-0">
-                <div class="text-muted">Last Week Sales</div>
+                <div class="text-muted" style="font-size: 40px">🧊</div>
                 <p class="text-warning text-24 m-0">$10250</p>
               </div>
               <div class="chart-wrapper" style="height: 260px">
@@ -108,222 +41,7 @@
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <b-card class="card-profile-1 mb-30 text-center">
-              <div class="avatar box-shadow-2 mb-3">
-                <img src="@/assets/images/faces/16.jpg" alt />
-              </div>
-              <h5 class="m-0">Jassica Hike</h5>
-              <p class="mt-0 text-muted">Top Seller</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae cumque. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum.
-              </p>
-              <button class="btn btn-primary btn-rounded">
-                Contact Jassica
-              </button>
-              <div class="card-socials-simple mt-4">
-                <a href>
-                  <i class="i-Linkedin-2"></i>
-                </a>
-                <a href>
-                  <i class="i-Facebook-2"></i>
-                </a>
-                <a href>
-                  <i class="i-Twitter"></i>
-                </a>
-              </div>
-            </b-card>
-          </div>
-          <div class="col-md-6">
-            <b-card class="card-profile-1 mb-30 text-center">
-              <div class="avatar box-shadow-2 mb-3">
-                <img src="@/assets/images/faces/13.jpg" alt />
-              </div>
-              <h5 class="m-0">jhon doe</h5>
-              <p class="mt-0 text-muted">Top Buyer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae cumque. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum .
-              </p>
-              <button class="btn btn-primary btn-rounded">
-                Contact Jassica
-              </button>
-              <div class="card-socials-simple mt-4">
-                <a href>
-                  <i class="i-Linkedin-2"></i>
-                </a>
-                <a href>
-                  <i class="i-Facebook-2"></i>
-                </a>
-                <a href>
-                  <i class="i-Twitter"></i>
-                </a>
-              </div>
-            </b-card>
-          </div>
-        </div>
       </div>
-      <!-- start::top selling product -->
-      <!-- <b-col col lg="6" md="12">
-                    
-                </b-col> -->
-      <!-- end::top-selling product -->
-
-      <b-col lg="6" xl="6" md="12">
-        <div class="card mb-30">
-          <div class="card-body">
-            <div class="card-title">Top Selling Products</div>
-            <div class="d-flex flex-column flex-sm-row align-items-center mb-3">
-              <img
-                class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3"
-                src="@/assets/images/products/headphone-4.jpg"
-                alt=""
-              />
-              <div class="flex-grow-1 text-center text-sm-left">
-                <h5 class=""><a href="">Wireless Headphone E23</a></h5>
-                <p class="m-0 text-small text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
-                <p class="text-small text-danger m-0">
-                  $450 <del class="text-muted">$500</del>
-                </p>
-              </div>
-              <div>
-                <button
-                  class="btn btn-outline-primary btn-rounded btn-sm m-3 m-sm-0"
-                >
-                  View details
-                </button>
-              </div>
-            </div>
-            <div class="d-flex flex-column flex-sm-row align-items-center mb-3">
-              <img
-                class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3"
-                src="@/assets/images/products/headphone-2.jpg"
-                alt=""
-              />
-              <div class="flex-grow-1 text-center text-sm-left">
-                <h5 class=""><a href="">Wireless Headphone Y902</a></h5>
-                <p class="m-0 text-small text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
-                <p class="text-small text-danger m-0">
-                  $550 <del class="text-muted">$600</del>
-                </p>
-              </div>
-              <div>
-                <button
-                  class="btn btn-outline-primary btn-sm btn-rounded m-3 m-sm-0"
-                >
-                  View details
-                </button>
-              </div>
-            </div>
-            <div class="d-flex flex-column flex-sm-row align-items-center mb-3">
-              <img
-                class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3"
-                src="@/assets/images/products/headphone-3.jpg"
-                alt=""
-              />
-              <div class="flex-grow-1 text-center text-sm-left">
-                <h5 class=""><a href="">Wireless Headphone E09</a></h5>
-                <p class="m-0 text-small text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
-                <p class="text-small text-danger m-0">
-                  $250 <del class="text-muted">$300</del>
-                </p>
-              </div>
-              <div>
-                <button
-                  class="btn btn-outline-primary btn-sm btn-rounded m-3 m-sm-0"
-                >
-                  View details
-                </button>
-              </div>
-            </div>
-            <div class="d-flex flex-column flex-sm-row align-items-center mb-3">
-              <img
-                class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3"
-                src="@/assets/images/products/headphone-4.jpg"
-                alt=""
-              />
-              <div class="flex-grow-1 text-center text-sm-left">
-                <h5 class=""><a href="">Wireless Headphone X89</a></h5>
-                <p class="m-0 text-small text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
-                <p class="text-small text-danger m-0">
-                  $450 <del class="text-muted">$500</del>
-                </p>
-              </div>
-              <div>
-                <button
-                  class="btn btn-outline-primary btn-sm btn-rounded m-3 m-sm-0"
-                >
-                  View details
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-30">
-          <div class="card-body p-0">
-            <div class="card-title d-flex align-items-center mb-2 pb-0 p-3">
-              <span>User activity</span>
-              <span class="flex-grow-1"></span>
-              <span class="badge badge-pill badge-warning">Updated daily</span>
-            </div>
-            <div class="d-flex border-bottom justify-content-between p-3">
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">Pages / Visit</span>
-                <h5 class="m-0">2065</h5>
-              </div>
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">New user</span>
-                <h5 class="m-0">465</h5>
-              </div>
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">Last week</span>
-                <h5 class="m-0">23456</h5>
-              </div>
-            </div>
-            <div class="d-flex border-bottom justify-content-between p-3">
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">Pages / Visit</span>
-                <h5 class="m-0">1829</h5>
-              </div>
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">New user</span>
-                <h5 class="m-0">735</h5>
-              </div>
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">Last week</span>
-                <h5 class="m-0">92565</h5>
-              </div>
-            </div>
-            <div class="d-flex justify-content-between p-3 mb-1">
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">Pages / Visit</span>
-                <h5 class="m-0">3165</h5>
-              </div>
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">New user</span>
-                <h5 class="m-0">165</h5>
-              </div>
-              <div class="flex-grow-1">
-                <span class="text-small text-muted">Last week</span>
-                <h5 class="m-0">32165</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </b-col>
 
       <div class="col-md-12">
         <div class="card mb-30">
