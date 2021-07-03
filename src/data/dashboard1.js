@@ -85,7 +85,7 @@ export const echart1 = {
       symbolSize: 8,
       showSymbol: false,
       lineStyle: {
-        color: "#d8d8d8",
+        color: "#FF683B",
         opacity: 1,
         width: 1.5,
       },
@@ -106,15 +106,23 @@ export const echart1 = {
             colorStops: [
               {
                 offset: 0,
-                color: "#FF683B",
+                color: "rgba(255, 104, 59, 0.7)",
               },
               {
                 offset: 0.3,
-                color: "#FF683B",
+                color: "rgba(255, 104, 59, 0.6)",
+              },
+              {
+                offset: 0.5,
+                color: "rgba(255, 104, 59, 0.5)",
+              },
+              {
+                offset: 0.7,
+                color: "rgba(255, 104, 59, 0.4)",
               },
               {
                 offset: 1,
-                color: "#FF683B",
+                color: "rgba(255, 104, 59, 0.3)",
               },
             ],
           },
@@ -209,7 +217,7 @@ export const echart2 = {
       symbolSize: 8,
       showSymbol: false,
       lineStyle: {
-        color: "#d8d8d8",
+        color: "#78ADD1",
         opacity: 1,
         width: 1.5,
       },
@@ -230,15 +238,23 @@ export const echart2 = {
             colorStops: [
               {
                 offset: 0,
-                color: "#78ADD1",
+                color: "rgba(120, 173, 209, 0.7)",
               },
               {
                 offset: 0.3,
-                color: "#78ADD1",
+                color: "rgba(120, 173, 209, 0.6)",
+              },
+              {
+                offset: 0.5,
+                color: "rgba(120, 173, 209, 0.5)",
+              },
+              {
+                offset: 0.7,
+                color: "rgba(120, 173, 209, 0.4)",
               },
               {
                 offset: 1,
-                color: "#78ADD1",
+                color: "rgba(120, 173, 209, 0.3)",
               },
             ],
           },
@@ -290,7 +306,7 @@ export const echart3 = {
       show: true,
     },
   },
-  label: {show: false, color: "#212121"},
+  label: { show: false, color: "#212121" },
   series: [
     {
       data: [
